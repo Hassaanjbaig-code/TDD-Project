@@ -9,6 +9,8 @@ class Solver
             "Buzz"
         elsif number % 3 == 0
             "Fizz"
+        else
+            number
         end
     end
 end
