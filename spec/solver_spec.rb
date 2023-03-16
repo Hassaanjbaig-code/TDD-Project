@@ -16,9 +16,21 @@ describe Solver do
         end
     end
     describe "#FizzBuzz" do
-          it "Checking the number is fizz" do
+          it "Checking the number 3 is fizz" do
             solver = Solver.new
             expect(solver.FizzBuzz(3)).to eq("Fizz")
+          end
+          it "Checking the number 9 is fizz" do
+            solver = Solver.new
+            expect(solver.FizzBuzz(9)).to eq("Fizz")
+          end
+          it "Checking the number 5 is buzz" do
+            solver = Solver.new
+            expect(solver.FizzBuzz(5)).to eq("Buzz")
+          end
+          it "Checking the number 10 is buzz" do
+            solver = Solver.new
+            expect(solver.FizzBuzz(10)).to eq("Buzz")
           end
     end
 end
