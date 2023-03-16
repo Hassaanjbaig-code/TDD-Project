@@ -1,5 +1,6 @@
 require 'rspec'
 require 'rspec/mocks/standalone'
+require_relative '../solver'
 
 RSpec.describe Solver do
   describe "#factorial" do
