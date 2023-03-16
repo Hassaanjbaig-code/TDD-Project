@@ -32,5 +32,9 @@ describe Solver do
             solver = Solver.new
             expect(solver.FizzBuzz(10)).to eq("Buzz")
           end
+          it "Checking the number 15 is fizzbuzz" do
+            solver = Solver.new
+            expect(solver.FizzBuzz(15)).to eq("FizzBuzz")
+          end
     end
 end
