@@ -15,4 +15,10 @@ describe Solver do
           expect(subject.reserve('word')).to eq('drow')
         end
     end
+    describe "#FizzBuzz" do
+          it "Checking the number is fizz" do
+            solver = Solver.new
+            expect(solver.FizzBuzz(3)).to eq("Fizz")
+          end
+    end
 end
