@@ -2,29 +2,29 @@ class Solver
   class NumberLessThanZeroError < StandardError
   end
 
-  def factorial(n)
-    if n == 0
+  def factorial(num)
+    if num.zero?
       1
-    elsif n > 0
-      n * factorial(n - 1)
+    elsif num.positive?
+      num * factorial(num - 1)
     else
-      raise NumberLessThanZeroError.new("Cannot calculate factorial for negative numbers")
+      raise NumberLessThanZeroError, 'Cannot calculate factorial for negative numbers'
     end
   end
 
-    def reserve(text)
-      text.reverse
+  def reserve(text)
+    text.reverse
+  end
+
+  def fizzbuzz(number)
+    if (number % 3).zero? && (number % 5).zero?
+      'FizzBuzz'
+    elsif (number % 5).zero?
+      'Buzz'
+    elsif (number % 3).zero?
+      'Fizz'
+    else
+      number
     end
-    
-    def FizzBuzz(number)
-        if number % 3 == 0 && number % 5 == 0
-            "FizzBuzz"
-        elsif number % 5 == 0
-            "Buzz"
-        elsif number % 3 == 0
-            "Fizz"
-        else
-            number
-        end
-    end
+  end
 end
