@@ -26,36 +26,22 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [TDD] <a name="TDDe"></a>
+# 📖 [TDD] <a name="TDD"></a>
 
-> Describe your project in 1 or 2 sentences.
+> This project is a simple example of how to use TDD(Test-Drive-Development) in a Ruby project. Where we fist test the code and then write the code.
 
-**[your_project__name]** is a...
+**[TDD]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
+> Ruby
+
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
-  <summary>Client</summary>
+  <summary>Backend</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
   </ul>
 </details>
 
@@ -63,11 +49,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[By using TDD build Factorial]**
+- **[By using TDD build Reverse the string]**
+- **[By using TDD build FizzBuzz]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,9 +59,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
+- [No live demo]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,83 +67,47 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
+
 
 ```sh
- gem install rails
+ Ruby
 ```
- -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  cd TDD-Project
+  git clone https://github.com/Hassaanjbaig-code/TDD-Project.git
 ```
---->
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
 
 ```sh
-  cd my-project
-  gem install
+  cd TDD-Project
+  gem install rspec
+  bundle install
 ```
---->
-
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
+
 
 ```sh
-  bin/rails test test/models/article_test.rb
+  rspec
 ```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,17 +117,17 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤👤 **Hassaan Baig**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Hassaanjbaig-code)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/hassaan-jawwad-baig)
 
-👤 **Author2**
+👤 **Yuvenal Njoroge**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@yuvenalmash](https://github.com/yuvenalmash)
+- Twitter: [@_Juvenal_](https://twitter.com/_Juvenal_)
+- LinkedIn: [Yuvenal Njoroge](https://linkedin.com/in/yuvenal-njoroge)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -189,11 +135,8 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Create a live demo]**
+- [ ] **[Add more method]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -203,7 +146,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Hassaanjbaig-code/TDD-Project/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -211,9 +154,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project please give it a ⭐️! nad support us.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -221,25 +162,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
+I would like to thank Microverse for the inspiration and support.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -247,8 +170,6 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./LICENCE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
