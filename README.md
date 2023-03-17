@@ -34,7 +34,7 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 
-> Ruby 
+> Ruby
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -106,7 +106,7 @@ To run tests, run the following command:
 
 
 ```sh
-  rspec spec/factorial_spec.rb
+  rspec
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -146,7 +146,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Hassaanjbaig-code/TDD-Project/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,7 +162,7 @@ If you like this project please give it a ⭐️! nad support us.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank...
+I would like to thank Microverse for the inspiration and support.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -170,6 +170,6 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT) licensed.
+This project is [MIT](./LICENCE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
